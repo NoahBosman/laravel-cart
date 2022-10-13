@@ -1,8 +1,8 @@
 {
-    "name": "yabhq/laravel-cart",
+    "name": "noahbosman/laravel-cart",
     "description": "Simple yet customizable Laravel shopping cart",
     "keywords": ["laravel", "cart", "shopping", "shopping cart"],
-    "homepage": "https://github.com/yabhq/laravel-cart",
+    "homepage": "https://github.com/NoahBosman/laravel-cart",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -13,11 +13,14 @@
         {
             "name": "Chris",
             "email": "chris@chrisblackwell.me"
+        },
+        {
+            "name": "Noah"
         }
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^8.0",
+        "illuminate/support": "~8.0",
         "yabhq/laravel-mint": "^1.0.2"
     },
     "require-dev": {
